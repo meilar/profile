@@ -73,4 +73,11 @@ button.btn {
 
 .welcome {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.welcome img {
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
