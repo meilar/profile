@@ -5,3 +5,72 @@
 .footer {
   text-align: center;
 }
+
+.card-text {
+  padding-top: 10px;
+}
+
+.html-lang {
+  color:#f7f7f7;
+  white-space: pre;
+  border: solid 2px black;
+  border-radius: 15px;
+  background-color: #d9534f;
+  padding: 5px;
+  margin: 5px;
+  font-size: small;
+  text-align: center;
+}
+.css-lang {
+  color:#f7f7f7;
+  white-space: pre;
+  border: solid 2px black;
+  border-radius: 15px;
+  background-color: #0275d8;
+  padding: 5px;
+  margin: 5px;
+  font-size: small;
+  text-align: center;
+}
+
+.js-lang {
+  color:#f7f7f7;
+  white-space: pre;
+  border: solid 2px black;
+  border-radius: 15px;
+  background-color: #5cb85c;
+  padding: 5px;
+  margin: 5px;
+  font-size: small;
+  text-align: center;
+}
+
+.boot-lang {
+  color:#f7f7f7;
+  white-space: pre;
+  border: solid 2px black;
+  border-radius: 15px;
+  background-color: #5bc0de;
+  padding: 5px;
+  margin: 5px;
+  font-size: small;
+  text-align: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+button.btn {
+  margin-top: auto;
+  justify-content: center;
+}
+
+.welcome h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.welcome {
+  text-align: center;
+}
