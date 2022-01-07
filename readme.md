@@ -1,5 +1,7 @@
 <h1 align="center">Matt's  Portfolio</h1>
 
+Matthew Eilar | [LinkedIn](https://www.linkedin.com/in/eilar-503/) | [email](mailto:<meilar@gmail.com>) | [website](www.mattheweilar.com)
+
 ## About this project
 This site was created to fulfill the requirements of my first [Epicodus](https://www.epicodus.com) code review. I completed a version of this project in 2019 while attending a part-time introductory version of the Epicodus program. That project can be viewed [here, on Github Pages.](https://meilar.github.io/portfolio) (I had more personality back then.)
 
@@ -31,6 +33,8 @@ The following software tools were used to develop this page:
 - Google Chrome
 - Git
 
+I created a custom favicon using [favicon.io](https://favicon.io)
+
 
 ## Known Issues
 
@@ -44,4 +48,3 @@ Thank you to my partner, Alex, for support in all ways. Thank you to my parents 
 
 © 2021 Matthew Eilar. This site is for demonstration only, all rights reserved.
 
-Matthew Eilar | [LinkedIn](https://www.linkedin.com/in/eilar-503/) | [email](mailto:<meilar@gmail.com>) | [website](www.mattheweilar.com)
