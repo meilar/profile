@@ -8,6 +8,7 @@ body {
 
 h2 {
   text-align: center;
+  font-family: 'Permanent Marker', cursive;
 }
 /* welcome styling */
 .welcome h1 {
@@ -23,7 +24,19 @@ h2 {
   margin-top: 40px;
 }
 .welcome h2 {
-  text-shadow: seashell;
+  font-weight: 20;
+}
+.welcome p {
+  font-weight: 800;
+}
+/* Sidebar styling */
+.sidebar {
+  width: 30%;
+  float: left;
+  background-color: rgba(178, 182, 209, 0.6);
+  padding: 5px;
+  padding-right: 10px;
+  margin: 20px;
 }
 /* Additional card styling */
 .card-text {
@@ -32,8 +45,8 @@ h2 {
 .card-body {
   display: flex;
   flex-direction: column;
+  background-color: rgba(178, 182, 209, 0.6);
 }
-
 button.btn {
   margin-top: auto;
   justify-content: center;
