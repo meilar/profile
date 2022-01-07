@@ -1,3 +1,4 @@
+/* Global styles */
 body {
   background-color: #dba770;
   background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
@@ -5,10 +6,13 @@ body {
 .section {
   margin-bottom: 50px;
 }
-
 h2 {
   text-align: center;
   font-family: 'Permanent Marker', cursive;
+}
+.intro {
+  font-weight: 800;
+  text-align: center;
 }
 /* welcome styling */
 .welcome h1 {
@@ -26,9 +30,6 @@ h2 {
 .welcome h2 {
   font-weight: 20;
 }
-.welcome p {
-  font-weight: 800;
-}
 /* Sidebar styling */
 .sidebar {
   width: 30%;
@@ -38,6 +39,12 @@ h2 {
   padding-right: 10px;
   margin: 20px;
 }
+/* Definition styling */
+
+ol li {
+  list-style-position: inside;
+}
+
 /* Additional card styling */
 .card-text {
   padding-top: 10px;
@@ -124,6 +131,7 @@ button.btn {
 .img__description {
   text-align: center;
   font-style: italic;
+  padding: 20px;
 }
 .img__wrap:hover .img__description_layer {
   visibility: visible;
