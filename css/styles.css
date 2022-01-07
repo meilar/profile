@@ -1,3 +1,14 @@
+body {
+  background-color: #dba770;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+}
+.section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+}
 /* welcome styling */
 .welcome h1 {
   font-family: 'Permanent Marker', cursive;
@@ -11,7 +22,9 @@
   margin-bottom: 40px;
   margin-top: 40px;
 }
-
+.welcome h2 {
+  text-shadow: seashell;
+}
 /* Additional card styling */
 .card-text {
   padding-top: 10px;
