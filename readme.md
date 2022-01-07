@@ -33,7 +33,7 @@ The following software tools were used to develop this page:
 - Google Chrome
 - Git
 
-I created a custom favicon using [favicon.io](https://favicon.io)
+I created a custom favicon using [favicon.io](https://favicon.io). Custom fonts are served by [Google Fonts](https://fonts.google.com)
 
 
 ## Known Issues

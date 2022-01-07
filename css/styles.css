@@ -1,15 +1,31 @@
-.copyright {
-  font-family: monospace;
+/* welcome styling */
+.welcome h1 {
+  font-family: 'Permanent Marker', cursive;
 }
-
-.footer {
+.welcome {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.welcome img {
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
+/* Additional card styling */
 .card-text {
   padding-top: 10px;
 }
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
 
+button.btn {
+  margin-top: auto;
+  justify-content: center;
+}
+/* Language badges on cards */
 .html-lang {
   color:#f7f7f7;
   white-space: pre;
@@ -56,28 +72,49 @@
   font-size: small;
   text-align: center;
 }
-
-.card-body {
+/* Image hover transitions style */
+.img__wrap {
+  position: relative;
+  display: inline-block;
+}
+.img__img {
+  vertical-align: bottom;
+}
+.img__description_layer {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  background: rgba(178, 182, 209, 0.6);
+  color: #000000;
+  visibility: hidden;
+  opacity: 0;
   display: flex;
-  flex-direction: column;
-}
-
-button.btn {
-  margin-top: auto;
+  align-items: center;
   justify-content: center;
+  transition: opacity .5s, visibility .5;
 }
-
-.welcome h1 {
-  font-family: 'Permanent Marker', cursive;
-}
-
-.welcome {
+.img__description {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  font-style: italic;
 }
-
-.welcome img {
-  margin-bottom: 40px;
-  margin-top: 40px;
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+.img__description {
+  transition: .5s;
+  transform: translateY(1em);
+  text-align: center;
+}
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+/* Copyright footer */
+.copyright {
+  font-family: monospace;
+}
+.footer {
+  text-align: center;
 }
