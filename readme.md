@@ -38,7 +38,12 @@ I created a custom favicon using [favicon.io](https://favicon.io). Custom fonts 
 
 ## Known Issues
 
-There are no known issues.
+There are no content blocks that are broken. For more polish, the next steps I would take to polish this page are:
+
+- rewrite the "Fun Facts" sidebar to use a columning method that does not break Bootstrap's responsive design.
+- the semitransparent layer with text on mouseover on the photos is not the same size as the photo. Untangling how the Bootstrap image styling and the custom code for that mouseover effect interact with each other was beyond me in the time I had. 
+- I could not get the background color of the card deck to match the other boxes with secondary color. 
+-The badges I created for HTML, CSS, JavaScript and Bootstrap were created in HTML and CSS, and look weird on small viewports. I should recreate those as images.
 
 ## Acknowledgements
 
