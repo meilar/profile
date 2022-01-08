@@ -60,7 +60,7 @@ ol li {
 .card-body {
   display: flex;
   flex-direction: column;
-  background-color: rgba(178, 182, 209, 0.6);
+  background: rgba(178, 182, 209, 0.6);
 }
 button.btn {
   margin-top: auto;
@@ -152,6 +152,20 @@ button.btn {
 }
 .img__wrap:hover .img__description {
   transform: translateY(0);
+}
+/* List group */
+.list-group {
+  display: flex;
+}
+
+.list-group-item {
+  background: rgba(178, 182, 209, 0.6);
+}
+.list-group-item h5 {
+  text-align: center;
+}
+.list-group-item small {
+  font-weight: bold;
 }
 /* Copyright footer */
 .copyright {
